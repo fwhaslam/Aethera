@@ -1,0 +1,105 @@
+%YAML 1.2
+---
+  Name: Graph_06
+  Stars:
+    - ID: 0
+      State: Visible
+      Loc:
+        Horz: 210
+        Vert: 290
+    - ID: 1
+      State: Visible
+      Loc:
+        Horz: 90
+        Vert: 10
+    - ID: 2
+      State: Visible
+      Loc:
+        Horz: 6
+        Vert: 57
+    - ID: 3
+      State: Visible
+      Loc:
+        Horz: 6
+        Vert: 44
+    - ID: 4
+      State: Visible
+      Loc:
+        Horz: 10
+        Vert: 71
+    - ID: 5
+      State: Visible
+      Loc:
+        Horz: 85
+        Vert: 0
+    - ID: 6
+      State: Visible
+      Loc:
+        Horz: 119
+        Vert: 38
+    - ID: 7
+      State: Visible
+      Loc:
+        Horz: 15
+        Vert: 83
+    - ID: 8
+      State: Visible
+      Loc:
+        Horz: 37
+        Vert: 146
+    - ID: 9
+      State: Visible
+      Loc:
+        Horz: 114
+        Vert: 6
+    - ID: 10
+      State: Visible
+      Loc:
+        Horz: 139
+        Vert: 15
+    - ID: 11
+      State: Visible
+      Loc:
+        Horz: 149
+        Vert: 92
+    - ID: 12
+      State: Visible
+      Loc:
+        Horz: 138
+        Vert: 125
+    - ID: 13
+      State: Visible
+      Loc:
+        Horz: 206
+        Vert: 59
+    - ID: 14
+      State: Visible
+      Loc:
+        Horz: 69
+        Vert: 225
+    - ID: 15
+      State: Visible
+      Loc:
+        Horz: 136
+        Vert: 183
+    - ID: 16
+      State: Visible
+      Loc:
+        Horz: 214
+        Vert: 216
+    - ID: 17
+      State: Visible
+      Loc:
+        Horz: 263
+        Vert: 190
+    - ID: 18
+      State: Visible
+      Loc:
+        Horz: 272
+        Vert: 286
+  Bounds:
+    Width: 300
+    Height: 300
+  StartStarId: 1
+  GoalStarId: 0
+...

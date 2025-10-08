@@ -1,0 +1,120 @@
+%YAML 1.2
+---
+  Name: Graph_01
+  Stars:
+    - ID: 0
+      State: Visible
+      Loc:
+        Horz: 210
+        Vert: 290
+    - ID: 1
+      State: Visible
+      Loc:
+        Horz: 90
+        Vert: 10
+    - ID: 2
+      State: Visible
+      Loc:
+        Horz: 161
+        Vert: 10
+    - ID: 3
+      State: Visible
+      Loc:
+        Horz: 203
+        Vert: 13
+    - ID: 4
+      State: Visible
+      Loc:
+        Horz: 199
+        Vert: 35
+    - ID: 5
+      State: Visible
+      Loc:
+        Horz: 171
+        Vert: 35
+    - ID: 6
+      State: Visible
+      Loc:
+        Horz: 197
+        Vert: 23
+    - ID: 7
+      State: Visible
+      Loc:
+        Horz: 232
+        Vert: 30
+    - ID: 8
+      State: Visible
+      Loc:
+        Horz: 252
+        Vert: 55
+    - ID: 9
+      State: Visible
+      Loc:
+        Horz: 84
+        Vert: 42
+    - ID: 10
+      State: Visible
+      Loc:
+        Horz: 226
+        Vert: 128
+    - ID: 11
+      State: Visible
+      Loc:
+        Horz: 57
+        Vert: 58
+    - ID: 12
+      State: Visible
+      Loc:
+        Horz: 291
+        Vert: 113
+    - ID: 13
+      State: Visible
+      Loc:
+        Horz: 68
+        Vert: 75
+    - ID: 14
+      State: Visible
+      Loc:
+        Horz: 11
+        Vert: 88
+    - ID: 15
+      State: Visible
+      Loc:
+        Horz: 160
+        Vert: 127
+    - ID: 16
+      State: Visible
+      Loc:
+        Horz: 218
+        Vert: 148
+    - ID: 17
+      State: Visible
+      Loc:
+        Horz: 147
+        Vert: 175
+    - ID: 18
+      State: Visible
+      Loc:
+        Horz: 292
+        Vert: 121
+    - ID: 19
+      State: Visible
+      Loc:
+        Horz: 52
+        Vert: 52
+    - ID: 20
+      State: Visible
+      Loc:
+        Horz: 179
+        Vert: 211
+    - ID: 21
+      State: Visible
+      Loc:
+        Horz: 156
+        Vert: 163
+  Bounds:
+    Width: 300
+    Height: 300
+  StartStarId: 1
+  GoalStarId: 0
+...

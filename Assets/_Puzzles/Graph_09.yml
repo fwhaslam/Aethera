@@ -1,0 +1,180 @@
+%YAML 1.2
+---
+  Name: Graph_09
+  Stars:
+    - ID: 0
+      State: Visible
+      Loc:
+        Horz: 210
+        Vert: 290
+    - ID: 1
+      State: Visible
+      Loc:
+        Horz: 90
+        Vert: 10
+    - ID: 2
+      State: Visible
+      Loc:
+        Horz: 77
+        Vert: 7
+    - ID: 3
+      State: Visible
+      Loc:
+        Horz: 36
+        Vert: 55
+    - ID: 4
+      State: Visible
+      Loc:
+        Horz: 131
+        Vert: 10
+    - ID: 5
+      State: Visible
+      Loc:
+        Horz: 96
+        Vert: 39
+    - ID: 6
+      State: Visible
+      Loc:
+        Horz: 71
+        Vert: 56
+    - ID: 7
+      State: Visible
+      Loc:
+        Horz: 1
+        Vert: 94
+    - ID: 8
+      State: Visible
+      Loc:
+        Horz: 54
+        Vert: 183
+    - ID: 9
+      State: Visible
+      Loc:
+        Horz: 13
+        Vert: 88
+    - ID: 10
+      State: Visible
+      Loc:
+        Horz: 192
+        Vert: 43
+    - ID: 11
+      State: Visible
+      Loc:
+        Horz: 107
+        Vert: 151
+    - ID: 12
+      State: Visible
+      Loc:
+        Horz: 197
+        Vert: 12
+    - ID: 13
+      State: Visible
+      Loc:
+        Horz: 35
+        Vert: 186
+    - ID: 14
+      State: Visible
+      Loc:
+        Horz: 12
+        Vert: 249
+    - ID: 15
+      State: Visible
+      Loc:
+        Horz: 185
+        Vert: 61
+    - ID: 16
+      State: Visible
+      Loc:
+        Horz: 217
+        Vert: 90
+    - ID: 17
+      State: Visible
+      Loc:
+        Horz: 210
+        Vert: 120
+    - ID: 18
+      State: Visible
+      Loc:
+        Horz: 252
+        Vert: 112
+    - ID: 19
+      State: Visible
+      Loc:
+        Horz: 148
+        Vert: 191
+    - ID: 20
+      State: Visible
+      Loc:
+        Horz: 138
+        Vert: 161
+    - ID: 21
+      State: Visible
+      Loc:
+        Horz: 255
+        Vert: 7
+    - ID: 22
+      State: Visible
+      Loc:
+        Horz: 263
+        Vert: 108
+    - ID: 23
+      State: Visible
+      Loc:
+        Horz: 96
+        Vert: 262
+    - ID: 24
+      State: Visible
+      Loc:
+        Horz: 242
+        Vert: 9
+    - ID: 25
+      State: Visible
+      Loc:
+        Horz: 102
+        Vert: 296
+    - ID: 26
+      State: Visible
+      Loc:
+        Horz: 38
+        Vert: 268
+    - ID: 27
+      State: Visible
+      Loc:
+        Horz: 245
+        Vert: 148
+    - ID: 28
+      State: Visible
+      Loc:
+        Horz: 246
+        Vert: 163
+    - ID: 29
+      State: Visible
+      Loc:
+        Horz: 131
+        Vert: 155
+    - ID: 30
+      State: Visible
+      Loc:
+        Horz: 294
+        Vert: 2
+    - ID: 31
+      State: Visible
+      Loc:
+        Horz: 262
+        Vert: 195
+    - ID: 32
+      State: Visible
+      Loc:
+        Horz: 269
+        Vert: 3
+    - ID: 33
+      State: Visible
+      Loc:
+        Horz: 136
+        Vert: 299
+  Bounds:
+    Width: 300
+    Height: 300
+  StartStarId: 1
+  GoalStarId: 0
+...
