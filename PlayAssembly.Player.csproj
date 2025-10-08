@@ -60,13 +60,14 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.41f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Global\SingletonPersistentMonoBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Controllers\StarController.cs" />
     <Compile Include="Assets\Scripts\Drawing\DrawTool.cs" />
     <Compile Include="Assets\Scripts\Global\ReadyWait.cs" />
-    <Compile Include="Assets\Scripts\Global\SingletonPersistentMonoBehaviour.cs" />
     <Compile Include="Assets\Scripts\Controllers\CameraController.cs" />
     <Compile Include="Assets\Scripts\Controllers\PlayMapDisplayer.cs" />
     <Compile Include="Assets\Scripts\Controllers\ScoreController.cs" />
-    <Compile Include="Assets\Scripts\Controllers\StarController.cs" />
+    <Compile Include="Assets\Scripts\Controllers\SkyQuadController.cs" />
     <Compile Include="Assets\Scripts\Global\SingletonMonoBehaviour.cs" />
     <Compile Include="Assets\Scripts\Controllers\PlayMapController.cs" />
   </ItemGroup>

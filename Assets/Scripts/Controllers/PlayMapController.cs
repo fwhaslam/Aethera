@@ -25,7 +25,7 @@ namespace Controllers {
 
         public GameObject circleTemplate;
         public GameObject starTemplate;
-        public GameObject frameTemplate;
+        //public GameObject frameTemplate;
 
 
         static internal float FRAME_DEPTH = 1f;
@@ -45,6 +45,9 @@ namespace Controllers {
             Display = new PlayMapDisplayer() { Boss=this };
             Engine = new PlayEngine();
 
+            var puzzlesPath = Application.dataPath + "/_puzzles/";
+            Engine.ReadPuzzleFolder( puzzlesPath );
+
             NewPuzzle();
 
             // wire up controls
@@ -53,7 +56,7 @@ namespace Controllers {
         }
 
         public void NewPuzzle() {
-            Engine.Build( width, height );
+            Engine.NextPuzzle();
             Display.NewPuzzleDraw();
         }
 

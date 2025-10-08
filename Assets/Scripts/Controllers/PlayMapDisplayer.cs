@@ -17,19 +17,19 @@ namespace Controllers {
 
         public PlayMapController Boss { get; set; }
         public PlayEngine Engine { get { return Boss.Engine;} }
-        public List<Star> Stars { get { return Engine.Graph.Stars; } }
+        public List<Star> Stars { get { return Engine.Puzzle.Stars; } }
 
         internal int Width { get{return Boss.width; } }
         internal int Height { get{return Boss.height; } }
 
         public void NewPuzzleDraw() {
 Debug.Log("=== DrawTooling()");
-            FixClickBox( Width, Height );
-            FixFrame( 0f, 0f, Width, Height );
+            //FixClickBox( Width, Height );
+            //FixFrame( 0f, 0f, Width, Height );
             CreateStars();
             NewStateDraw();
 
-Debug.Log("=== Map Summary\n"+Boss.Engine.Graph.ToDisplayGrid());
+//Debug.Log("=== Map Summary\n"+Boss.Engine.Puzzle.ToDisplayGrid());
         }
 
         public void NewStateDraw() {
@@ -40,46 +40,46 @@ Debug.Log("=== Redraw()");
         internal string StarName( int starId ) {  return "Star-"+starId; }
         internal string RangeName( int starId ) {  return "Star-Range-"+starId; }
 
-        internal void FixClickBox( int widt, int tall, string boxName = "ClickBoxGO" ) {
+        //internal void FixClickBox( int widt, int tall, string boxName = "ClickBoxGO" ) {
 
-            // find / create frame
-            var workTfm = Boss.transform.Find( boxName );
-
-
-            if (workTfm==null) {
-
-                workTfm = GameObject.CreatePrimitive(PrimitiveType.Cube).transform;
-                workTfm.name = boxName;
-                workTfm.SetParent( Boss.transform );
-
-                workTfm.gameObject.AddComponent<BoxCollider>();
-            }
-
-            // locate frame
-            workTfm.localPosition = Vector3.zero;
-            workTfm.localScale = new Vector2( Width, Height );
-
-        }
-
-        internal void FixFrame( float left, float top, float right, float bottom, string frameName = "FrameImageGO" ) {
-
-            // find / create frame
-            var workTfm = Boss.transform.Find( frameName );
+        //    // find / create frame
+        //    var workTfm = Boss.transform.Find( boxName );
 
 
-            if (workTfm==null) {
-                workTfm = PlayMapController.Instantiate( Boss.frameTemplate.transform );
-                workTfm.name = frameName;
-                workTfm.SetParent( Boss.transform );
-            }
+        //    if (workTfm==null) {
 
-            // locate frame
-            workTfm.localPosition = new Vector3( 0,0, FRAME_DEPTH );
-            workTfm.localScale = new Vector2( Width, Height );
-            //frameTransform.localPosition = new Vector3( (left+right)/2, (top+bottom)/2, +1f );
-            //frameTransform.localScale = new Vector2( right, bottom );
+        //        workTfm = GameObject.CreatePrimitive(PrimitiveType.Cube).transform;
+        //        workTfm.name = boxName;
+        //        workTfm.SetParent( Boss.transform );
 
-        }
+        //        workTfm.gameObject.AddComponent<BoxCollider>();
+        //    }
+
+        //    // locate frame
+        //    workTfm.localPosition = Vector3.zero;
+        //    workTfm.localScale = new Vector2( Width, Height );
+
+        //}
+
+        //internal void FixFrame( float left, float top, float right, float bottom, string frameName = "FrameImageGO" ) {
+
+        //    // find / create frame
+        //    var workTfm = Boss.transform.Find( frameName );
+
+
+        //    if (workTfm==null) {
+        //        workTfm = PlayMapController.Instantiate( Boss.frameTemplate.transform );
+        //        workTfm.name = frameName;
+        //        workTfm.SetParent( Boss.transform );
+        //    }
+
+        //    // locate frame
+        //    workTfm.localPosition = new Vector3( 0,0, FRAME_DEPTH );
+        //    workTfm.localScale = new Vector2( Width, Height );
+        //    //frameTransform.localPosition = new Vector3( (left+right)/2, (top+bottom)/2, +1f );
+        //    //frameTransform.localScale = new Vector2( right, bottom );
+
+        //}
 
         /// <summary>
         /// New Puzzle draw - create all objects, place locations.
@@ -162,7 +162,7 @@ Debug.Log("=== RedrawStars" );
                 //var star = Boss.transform.Find(starName).gameObject;
                 var range = Boss.transform.Find(rangeName).gameObject;
 
-                range.SetActive( Engine.Active(starIx) );
+                range.SetActive( Engine.Puzzle.Stars[starIx].State==StarStateEnum.Active );
             }
 
         }
